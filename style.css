@@ -92,9 +92,12 @@ h1{
     margin-right: auto;
 }
 .text-style{
-    margin: 30px;
-    padding-left: 50px;
-    padding-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-top: 50px;
     padding-bottom: 50px;
     line-height: 2;
