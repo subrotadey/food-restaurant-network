@@ -68,3 +68,25 @@ h1{
     margin-top: 30px;
     margin-left: 30px;
 }
+
+
+
+
+.banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.half-width-section{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+
+
