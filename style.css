@@ -43,9 +43,11 @@ h1{
     width: 50%;
     margin-top: 30px;
     margin-left: 50px;
+    position: relative;
 }
 .half-width img{
-    width: 100%
+    width: 100%;
+    height: 144;
 }
 .tomato-color{
     color: darkorange;
@@ -59,34 +61,52 @@ h1{
     color: gray;
     margin-bottom: 80px;
 }
-.half-width a{
+.button-style{
     text-decoration: none;
     font-weight: 700;
-    background-image:linear-gradient(tomato, orange);
+    background-image:linear-gradient(orange, tomato);
     border-radius: 30px;
-    padding: 20px 40px;
+    padding: 20px 45px;
     margin-top: 30px;
     margin-left: 30px;
 }
-
-
-
-
 .banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 600px;
     display: flex;
     margin-top: 50px;
 }
 .half-width-section{
     width: 50%;
-    height: 400px;
-    padding: 20px;
-    margin-left: 50px;
-    justify-content: center;
 }
-
-
-
+.half-width-section img{
+    width: 400px;
+    height: 520px;
+    margin-top: 80px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-style{
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+.half-width-section p{
+    margin-bottom: 100px;
+}
+#font{
+    font-size: 35px;
+    color: gray;
+}
+#font-space{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
