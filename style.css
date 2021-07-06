@@ -156,8 +156,9 @@ footer h2{
 }
 footer p{
     color: white;
+    font-family: 'Noto Sans JP', sans-serif;
 }
-#footer-experience h2{
+footer h2{
     font-size: 30px;
     margin-top: 30px;
     padding-top: 35px;
